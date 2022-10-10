@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OMaths: Mathe-Lernapp | Feedback</title>
+    <meta name="description" content="Fülle den Feedbackbogen aus, um OMaths noch besser zu machen. Omaths ist eine Mathe-Lernapp für den Übergang in die Oberstufe.">
+</head>
+<body>
+    <header class="shadow gradient">
+        <a href="index.html"><img src="img/logo_white.svg" id="logo-footer" alt="OMaths"></a>
+        <nav id="navigation-top">
+            <a class="underline" href="/">Home</a>
+            <a class="underline" href="/download.html">Download</a>
+            <a class="underline" href="/about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="container block-padding">
+    <h1>Feedback</h1>    
+    </div>
+
+
+    <div class="container block-padding">
+        <form target="_blank" action="https://formsubmit.co/efb7c2f14d8ece345f7b3ac7af58101c" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_next" value="https://vann-universal.github.io/thanks.html">
+            <input type="hidden" name="_subject" value="OMaths Feedback">
+
+            <div class="form-grid">
+                <label for="name">Benutzer</label>
+                <input id="name" type="text" name="name" class="shadow" placeholder="Benutzer" required>
+                
+                <label for="email">Email Adresse (optional)</label>
+                <input id="email" type="email" name="email" class="shadow" placeholder="Email Adresse">
+                
+                <!--<label for="version">Welche <img src="img/logo_white.svg" class="img-text" alt="OMaths">-Version nutzt Du? (optional)</label>
+                <select name="version" id="version">
+                    <option value="">--Version auswählen--</option>
+                    <option value="0.1.0 alpha">0.1.0 alpha</option>
+                </select>-->
+
+                <label for="umgang">Ich fühle mich durch <img src="img/logo_white.svg" class="img-text" alt="OMaths"> sicherer im Umgang mit Funktionen.</label>
+                <div class="input-container zutreffend"><input type="range" min="0" max="1" name="umgang" id="umgang" step="0.2"></div>
+
+                <label for="funktionstypen"><img src="img/logo_white.svg" class="img-text" alt="OMaths"> hat dazu beigetragen, dass ich die verschiedenen Funktionstypen besser unterscheiden kann.</label>
+                <div class="input-container zutreffend"><input type="range" min="0" max="1" name="funktionstypen" id="funktionstypen" step="0.2"></div>
+
+                <label for="graphen">Durch <img src="img/logo_white.svg" class="img-text" alt="OMaths"> kann ich mir Graphen besser vorstellen.</label>
+                <div class="input-container zutreffend"><input type="range" min="0" max="1" name="graphen" id="graphen" step="0.2"></div>
+
+                <label for="hilfen">Ich habe die Hilfen oft benutzt.</label>
+                <div class="input-container zutreffend"><input type="range" min="0" max="1" name="hilfen" id="hilfen" step="0.2"></div>
+
+                <label for="bedienen"><img src="img/logo_white.svg" class="img-text" alt="OMaths"> war für mich einfach zu bedienen.</label>
+                <div class="input-container zutreffend"><input type="range" min="0" max="1" name="bedienen" id="bedienen" step="0.2"></div>
+
+                <label for="zuverlaessig"><img src="img/logo_white.svg" class="img-text" alt="OMaths"> hat zuverlässig funktioniert.</label>
+                <div class="input-container zutreffend"><input type="range" min="0" max="1" name="zuverlaessig" id="zuverlaessig" step="0.2"></div>
+
+                <label>Ich würde die App empfehlen (bitte anklicken):</label>
+                <div id="form-recommend-grid">
+                    <label for="kl10">als Übung für Schüler der 10. Klasse</label>
+                    <input type="checkbox" name="kl10" id="kl10">
+                    <label for="vor11">als Vorbereitung auf die Kursstufe</label>
+                    <input type="checkbox" name="vor11" id="vor11">
+                    <label for="kl11/12">als Wiederholung in der Kursstufe</label>
+                    <input type="checkbox" name="kl11/12" id="kl11/12">
+                    <label for="klausur">als Vorbereitung auf Klausuren</label>
+                    <input type="checkbox" name="klausur" id="klausur">
+                    <label for="nichtempfohlen">gar nicht</label>
+                    <input type="checkbox" name="nichtempfohlen" id="nichtempfohlen">
+                </div>
+
+                <label for="bewertung">Insgesamt bewerte ich <img src="img/logo_white.svg" class="img-text" alt="OMaths">:</label>
+                <div class="input-container sehr-gut"><input type="range" min="0" max="1" name="bewertung" id="bewertung" step="0.2"></div>
+
+                <label for="message">Anmerkungen</label>
+                <textarea id="message" placeholder="Anmerkungen" class="shadow" name="message" rows="6"></textarea>
+            </div>
+
+            <button type="submit" class="button shadow center">Senden</button>
+          </form>
+    </div>
+    
+
+    <footer class="container footer block-padding">
+        <div>
+            <a href="/"><img src="img/logo_white.svg" id="logo-footer" alt="OMaths"></a>
+            <!--
+            <div id="vann">
+                <p>powered by</p>
+                <img id="vann-footer" src="img/VANN.png" alt="">
+            </div>
+            -->
+        </div>
+        <ul>
+            <li><a class="underline" href="/">Start</a></li>
+            <li><a class="underline" href="/download.html">Download</a></li>
+            <li><a class="underline" href="/about.html">About</a></li>
+        </ul><ul>
+            <li><a class="underline" href="/feedback.html">Feedback</a></li>
+            <li><a class="underline" href="/bugreport.html">Fehler melden</a></li>
+            <li><a class="underline" href="https://github.com/VANN-Universal/OMaths">OMaths GitHub</a></li>
+        </ul>
+    </footer>
+
+    <p class="center" id="copyright">&copy; 2022 | Oliver Mikolay</p>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OMaths: Mathe-Lernapp | Fehler melden</title>
+    <meta name="description" content="Hilf mit, OMaths besser zu machen, indem Du Fehler meldest. OMaths ist eine Mathe-Lernapp für den Übergang in die Oberstufe.">
+</head>
+<body>
+    <header class="shadow gradient">
+        <a href="index.html"><img src="img/logo_white.svg" id="logo-footer" alt="OMaths"></a>
+        <nav id="navigation-top">
+            <a class="underline" href="/">Home</a>
+            <a class="underline" href="/download.html">Download</a>
+            <a class="underline" href="/about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="container block-padding">
+    <h1>Fehler melden</h1>    
+    </div>
+    
+
+
+    <div class="container block-padding">
+        <form target="_blank" action="https://formsubmit.co/efb7c2f14d8ece345f7b3ac7af58101c" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_next" value="https://vann-universal.github.io/thanks.html">
+            <input type="hidden" name="_subject" value="OMaths Bug">
+            <div class="form-grid-horizontal">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" class="shadow" placeholder="Name" required>
+                
+                <label for="email">Email Adresse</label>
+                <input id="email" type="email" name="email" class="shadow" placeholder="Email Adresse" required>
+                
+                <label for="description">Beschreibung des Fehlers</label>
+                <textarea id="description" placeholder="Beschreibung des Fehlers" class="shadow" name="description" rows="6" required></textarea>
+                
+                <label for="reproduction">Schritte zur Reproduktion des Fehlers</label>
+                <textarea id="reproduction" placeholder="Schritte zur Reproduktion" class="shadow" name="reproduction" rows="6"></textarea>
+                
+                <label for="screenshot">Screenshot (optional)</label>
+                <input id="screenshot" type="file" name="attachment">
+            </div>
+
+            <button type="submit" class="button shadow center">Senden</button>
+          </form>
+    </div>
+    
+
+    <footer class="container footer block-padding">
+        <div>
+            <a href="/"><img src="img/logo_white.svg" id="logo-footer" alt="OMaths"></a>
+            <!--
+            <div id="vann">
+                <p>powered by</p>
+                <img id="vann-footer" src="img/VANN.png" alt="">
+            </div>
+            -->
+        </div>
+        <ul>
+            <li><a class="underline" href="/">Start</a></li>
+            <li><a class="underline" href="/download.html">Download</a></li>
+            <li><a class="underline" href="/about.html">About</a></li>
+        </ul><ul>
+            <li><a class="underline" href="/feedback.html">Feedback</a></li>
+            <li><a class="underline" href="/bugreport.html">Fehler melden</a></li>
+            <li><a class="underline" href="https://github.com/VANN-Universal/OMaths">OMaths GitHub</a></li>
+        </ul>
+    </footer>
+
+    <p class="center" id="copyright">&copy; 2022 | Oliver Mikolay</p>
+
+</body>
+</html>
