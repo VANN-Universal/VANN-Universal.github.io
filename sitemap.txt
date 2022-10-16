@@ -1,4 +1,3 @@
-https://vann-universal.github.io/index.html
 https://vann-universal.github.io/download.html
 https://vann-universal.github.io/about.html
 https://vann-universal.github.io/bugreport.html
